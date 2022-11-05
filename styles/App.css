@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: MarkUp;
+  src: url('/Assets/Fonts/Markup\ W00\ Regular.ttf');
+}
+
+.text{
+  font-family: MarkUp;
+}
+
+
+.outline{
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
+/* navbar css */
+.navbarMain{
+background-color: transparent;
+}
+.navLogo{
+  width: 200px;
+  margin-left: 20px;
+}
+
+.navConnectBtn{
+  background-color: rgb(249, 228, 0) !important;
+  border: 0px !important;
+  color: black !important;
+  margin-right: 25px;
+  font-weight: bold !important;
+  font-family: Markup;
+}
+
+/* navbar css */
+
+/* body */
+.bodyDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.bodyTextDiv{
+  display: flex;
+  align-items: center;
+}
+.bodyText{
+  margin-left:'-320px';
+  font-size: 32px;
+}
+.mintBtn{
+  background-color: rgb(248, 102, 126) !important;
+  border: 0 !important;
+  margin: 5px;
+}
+.notice{
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(248, 102, 126) !important;
+  border: solid 5px rgb(102, 153, 248);
+  margin: 10px auto 0 auto;
+}
+.mintStakeBtn{
+  background-color: rgb(102, 153, 248) !important;
+  border: 0 !important;
+}
+.eggHolder{
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  position:absolute;
+  background-color: transparent;
+}
+/* body */
+
+
+
+@media (max-width: 768px){
+    .bodyDiv{
+      display: inline;
+    }
+    .bodyText{
+      margin-top: 50px;
+      margin-left: 0;
+    }
+}
+
+.partsHolder{
+  height:90px;
+  width: 90px;
+  border-radius: 15px;
+  margin: 5px;
+  background-color: rgb(255, 234, 186);
+}
+
+.partsHolderStaked{
+  height:90px;
+  width: 90px;
+  border-radius: 15px;
+  margin: 5px;
+  background-color: rgb(255, 234, 186);
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
+
+
+.selected{
+  border: 1px black solid;
+}
+
+.nooutline{
+  border:0px
+}
+
+.tamagoContainer{
+  margin-top: 30px;
+}
+
+.tamagoImage{
+  width: 100px;
+  border: 2px black solid;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.CLASSIC{
+  color: white;
+  border-radius: 20px;
+  background-color: red;
+  margin: 8px;
+}
+
+.ADVANCED{
+  color: white;
+  border-radius: 20px;
+  background-color: orange;
+  margin: 8px;
+}
+
+.LEGENDARY{
+  color: white;
+  border-radius: 20px;
+  background-color: rgb(2, 185, 2);
+  margin: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+
+
